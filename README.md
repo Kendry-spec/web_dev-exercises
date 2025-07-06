@@ -1,23 +1,26 @@
-# 👋 Hi, I'm Hendrix Kayira
+# Web Development Practice Exercises
 
-🎓Just finished my studies in ICT from Daeyang University, and I’m on a journey to become a full-stack web developer.  
-💻 Right now, I’m focusing on building a strong foundation in:
-- HTML, CSS
-- PHP & Laravel
-- MySQL
-- Git & GitHub
+This repository contains a collection of simple to intermediate web development-related exercises to help me master the fundamentals of web development. I created these as personal learning projects and committed them to track my progress.
 
-## Projects so far include:
-- Practice exercises (tables, forms, layouts)
+## Folder Structure
 
-📌 I believe learning by doing is the best way forward. Every day, I push a little further.
+- `tables/` — Exercises focused on HTML tables
 
-## Skills I'm building
-- Front-end fundamentals
-- Back-end development with PHP
-- Version control with Git
-- Deployment and portfolio building
+## Why This Repo?
 
-## Reach out
+I wanted to:
+
+- Track my progress over time.
+- Practice and understand HTML structure deeply (frontend development)
+- Build a strong Git + GitHub workflow.
+- Build a strong foundation before working on real-world large projects
+
+## What's Next?
+I plan to add more practice folders like:
+- `mini-projects/`
+
+📌 As, I believe learning by doing is the best way forward. Every day, I push a little further.
+
+## Connect with Me
 Email: hendrixk@dyuni.ac.mw 
 Phone: 0999140016
