@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>list of Students</title>
-</head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        table {
+            border: 2px solid #ccc;
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+    </style>
+    </head>
+
 <body>
     <!-- Table showing a list of Students with four Columns -->
-    <table border="2" style="width: auto; margin: 20px 0px 0px 30px; border-collapse: collapse; text-align: center;">
+    <table border="2">
         
-        <caption style="text-align: center;">
+        <caption>
             STUDENT INFORMATION
         </caption>
     
@@ -31,14 +57,12 @@
                 <td>4</td>
                 <td>Software Engineering</td>
             </tr>
-
             <tr>
                 <td>Chigo Mughogho</td>
                 <td>10</td>
                 <td rowspan="2">1</td>
                 <td>Data Analytics</td>
             </tr>
-
             <tr>
                 <td>Clara Mumbo</td>
                 <td>11</td>
@@ -62,8 +86,8 @@
      
         <tfoot>
             <tr>
-                <td colspan="2" style="font-weight: bold; font-size: large; color: gray; font-style: italic;">Total Students:</td>
-                <td colspan="2" style="font-weight: bold; font-size: large; color: gray;">5</td>
+                <td colspan="2">Total Students:</td>
+                <td colspan="2" >5</td>
             </tr>
         </tfoot>
     
