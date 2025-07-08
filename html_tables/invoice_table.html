@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invoice table</title>
-    <!-- <link rel="stylesheet" href="student_style.css"> -->
+    <link rel="stylesheet" href="tables_style.css">
 </head>
 <body>
-    <table border="1" style="margin: 40px; border-collapse: collapse; width: 80%;">
+    <table border="1">
 
         <caption>
             CUSTOMER PRODUCTS INVOICE LIST
@@ -31,21 +31,21 @@
         <tbody>
             <tr>
                 <td>01</td>
-                <td>TextBook</td>
+                <td class="name_align">TextBook</td>
                 <td>5</td>
                 <td>1000</td>
                 <td>5000</td>
             </tr>
             <tr>
                 <td>02</td>
-                <td>Pencil</td>
+                <td class="name_align">Pencil</td>
                 <td>20</td>
                 <td>500</td>
                 <td>10000</td>
             </tr>
             <tr>
                 <td>03</td>
-                <td>USB Disk Drive</td>
+                <td class="name_align">USB Disk Drive</td>
                 <td>10</td>
                 <td>20000</td>
                 <td>200000</td>
@@ -55,7 +55,7 @@
 
         <!-- Table footer content -->
         <tfoot>
-            <tr style="text-align: center;">
+            <tr>
                 <td colspan="3">Total Amount</td>
                 <td>215000</td>
             </tr>
