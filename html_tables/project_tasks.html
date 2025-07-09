@@ -8,23 +8,91 @@
 </head>
 <body>
     <table>
+        <!-- adding table heading -->
+        <caption>SOFTWARE PROJECT TASKS MANAGEMENT</caption>
+        
+        <!-- Table column headings -->
         <thead>
             <tr>
-                <th></th>
+                <th>Task ID</th>
+                <th>Task Name</th>
+                <th>Assigned To</th>
+                <th>Priority</th>
+                <th>Due Date</th>
+                <th>Status</th>
             </tr>
         </thead>
 
+        <!-- Main table contents -->
         <tbody>
             <tr>
-                <td></td>
+                <td>T001</td>
+                <td class="name_align">Requirements gathering & Analysis</td>
+                <td rowspan="2" class="name_align">Chigomezgo</td>
+                <td class="high-priority">High</td>
+                <td>15/07/2025</td>
+                <td>In Progress</td>
+            </tr>
+             <tr>
+                <td>T007</td>
+                <td class="name_align">Update Documentation</td>
+                <td class="low-priority">Low</td>
+                <td>10/09/2025</td>
+                <td>Pending</td>
+            </tr>
+            <tr>
+                <td>T002</td>
+                <td class="name_align">Resource Allocation</td>
+                <td rowspan="2" class="name_align">Takondwa</td>
+                <td class="high-priority">High</td>
+                <td>10/07/2025</td>
+                <td>In Progress</td>
+            </tr>     
+            <tr>
+                <td>T008</td>
+                <td class="name_align">Prepare for User Testing (UAT)</td>
+                <td class="medium-priority">Medium</td>
+                <td>15/09/2025</td>
+                <td>Not Started</td>
+            </tr>       
+            <tr>
+                <td>T003</td>
+                <td class="name_align">Identify & Plan for Risks</td>
+                <td class="name_align">Sandram</td>
+                <td class="medium-priority">Medium</td>
+                <td>30/07/2025</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <td>T004</td>
+                <td class="name_align">Implement Features</td>
+                <td rowspan="2" class="name_align">Hendrix</td>
+                <td class="high-priority">High</td>
+                <td>25/08/2025</td>
+                <td>Pending</td>
+            </tr>
+            <tr>
+                <td>T006</td>
+                <td class="name_align">Bug tracking & Fixes</td>
+                <td class="high-priority">High</td>
+                <td>02/09/2025</td>
+                <td>Not Started</td>
+            </tr>
+            <tr>
+                <td>T005</td>
+                <td class="name_align">Daily Stand-Ups</td>
+                <td class="name_align">Edward</td>
+                <td class="medium-priority">Medium</td>
+                <td>01/09/2025</td>
+                <td>Pending</td>
             </tr>
         </tbody>
 
-        <tfoot>
+        <!-- <tfoot>
             <tr>
                 <td></td>
             </tr>
-        </tfoot>
+        </tfoot> -->
 
     </table>
 </body>
