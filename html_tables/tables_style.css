@@ -4,13 +4,14 @@
             color: #333;
         }
         table {
-            border: 2px solid #ccc;
-            width: 80%;
+            /* border: 2px solid #ccc; */
+            width: 90%;
             margin: 20px auto;
             border-collapse: collapse;
         }
         th, td {
-            padding: 5px;
+            border: 1px solid #cccccc;
+            padding: 6px;
             text-align: center;
         }
         .name_align {
@@ -28,4 +29,19 @@
             color: gray;
             font-weight: bold;
             background-color: #f9f9f9;
+        }
+        tr:nth-child(even) {
+                      background-color: #d1e7f0;
+            
+        }
+        tr:hover {
+            background-color: #add8e6;
+        }
+        .high-priority {
+            background-color: #ff0000;
+            color: white;
+        }
+        .medium-priority {
+            background-color: #ffa500;
+            color: white;
         }
