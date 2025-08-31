@@ -1,13 +1,15 @@
         body {
             background-image: url("imgs/elk-silhouette-9331519.webp");
-            font-size: 25px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: repeat-x;
+            font-size: 20px;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4; 
             color: #333;
         }
         table {
             /* border: 2px solid #ccc; */
-            width: 90%;
+            width: 85%;
             margin: 20px auto;
             border-collapse: collapse;
         }
