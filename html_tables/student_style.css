@@ -1,7 +1,8 @@
         body {
             background-image: url("imgs/elk-silhouette-9331519.webp");
+            font-size: 25px;
             font-family: Arial, sans-serif;
-            /* background-color: #f4f4f4; */
+            background-color: #f4f4f4; 
             color: #333;
         }
         table {
