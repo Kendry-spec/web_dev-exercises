@@ -8,13 +8,12 @@
             color: #333;
         }
         table {
-            border: 1px solid rgb(18, 21, 10);
             width: 85%;
             margin: 20px auto;
             border-collapse: collapse;
         }
         th, td {
-            border: 1px solid rgb(18, 21, 10);
+            border: 2px solid rgb(18, 21, 10);
             padding: 6px;
             text-align: center;
         }
@@ -36,7 +35,6 @@
         }
         tr:nth-child(even) {
                       background-color: #d1e7f0;
-            
         }
         tr:hover {
             background-color: #add8e6;
