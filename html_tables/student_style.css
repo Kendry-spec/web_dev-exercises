@@ -25,6 +25,7 @@
             color: white;
         }
         caption {
+            text-decoration: underline 2px;
             font-size: 1.5em;
             margin-bottom: 10px;
         }
