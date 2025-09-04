@@ -23,6 +23,7 @@
         th {
             background-color:#4682b2;
             color: white;
+            text-transform: uppercase;
         }
         caption {
             text-decoration: underline 2px;
@@ -47,6 +48,9 @@
         .medium-priority {
             background-color: #ffa500;
             color: white;
+        }
+        #uppercase {
+            text-transform: uppercase;
         }
         p {
             text-align: center;
