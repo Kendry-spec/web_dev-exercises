@@ -35,7 +35,7 @@
             background-color: #f9f9f9;
         }
         tr:nth-child(even) {
-                      background-color: #d1e7f0;
+            background-color: #d1e7f0;
         }
         tr:hover {
             background-color: #add8e6;
@@ -47,4 +47,9 @@
         .medium-priority {
             background-color: #ffa500;
             color: white;
+        }
+        p {
+            text-align: center;
+            margin-top: 150px;
+            /* color: #4682b2; */
         }
