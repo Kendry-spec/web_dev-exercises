@@ -29,3 +29,21 @@ li a:hover {
     background-color: #008080;
     color: #FFFF;
 }
+.link {
+    text-decoration: none;
+    color: #000;
+}
+.link2 {
+    font: normal bold 20px verdana sans_serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.link:visited {
+    color: green;
+}
+.link:hover {
+    color:hotpink;
+}
+.link:active {
+    color: blue;
+}
