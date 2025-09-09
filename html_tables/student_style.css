@@ -24,7 +24,7 @@
             color: white;
             text-transform: uppercase;
         }
-        caption {
+        h1 {
             text-decoration: underline 2px;
             font-size: 1.5em;
             margin-bottom: 10px;
