@@ -22,7 +22,9 @@
         }
 
         table {
-            max-width: 90%;
+            width: 90%;
+            max-width: 95%;
+            min-width: 400px;
             margin: auto;
             border-collapse: collapse;
             background-color: rgba(255, 255, 255, 0.9);
