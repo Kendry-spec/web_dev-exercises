@@ -17,9 +17,6 @@
         th, td {
             border: 2px solid rgb(18, 21, 10);
             padding: 10px;
-            text-align: center;
-        }
-        .name_align {
             text-align: left;
         }
         th {
