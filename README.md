@@ -1,10 +1,12 @@
 # Web Development Practice Exercises
 
-This repository contains a collection of simple to intermediate web development-related exercises to help me master the fundamentals of web development. I created these as personal learning projects and committed them to track my progress.
+This repo is where I keep my web development exercises as I practice and build up my understanding of the basics. It's a personal learning project that helps me track my progress along the way.
 
 ## Folder Structure
 
-- `tables/` — Exercises focused on HTML tables
+- `css_navbar/`
+- `html_tables/` — Exercises focused on HTML tables
+- `z-index-examples/`
 
 ## Why This Repo?
 
@@ -16,8 +18,7 @@ I wanted to:
 - Build a strong foundation before working on real-world large projects
 
 ## What's Next?
-I plan to add more practice folders like:
-- `mini-projects/`
+I plan to add more practice folders containing real Projects.
 
 📌 As, I believe learning by doing is the best way forward. Every day, I push a little further.
 
