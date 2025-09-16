@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Z-index</title>
+        <style>
+            body {
+                background-color: #033;
+                color: #5a842b;
+                text-align: center;
+            }
+            
+            h1 {
+                text-decoration: underline;
+                text-transform: uppercase;
+                margin-top: 40px;
+            }
+
+            img {
+                position: absolute;
+                top: 6px;
+                right: 30%;
+                z-index: -1;
+            }
+            
+            p {
+               font: italic 30px Arial Sans-serif;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Styling with Z-index property</h1>
+
+        <img src="img/pc-img.png" alt="An image showing computer setup" >
+        <p>Experience is the name everyone gives to their mistakes.</p>
+        <p>...Because the image has a z-index of -1, it will be placed behind text.</p>
+   
+    </body>
+</html>
