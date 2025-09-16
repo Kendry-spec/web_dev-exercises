@@ -8,9 +8,14 @@
                 text-decoration: underline;
                 text-transform: uppercase;
                 color: rgba(31, 3, 81, 0.781);
-                margin-bottom: 50px;
             }
-            
+
+             .container {
+                padding: 20px;
+                font-size: 20px;
+                color: #fff;
+             }
+
             .box1 {
                 position: absolute;
                 width: 300px;
@@ -19,9 +24,6 @@
                 left: 50px;
                 z-index: 1;
                 background: rgb(4, 113, 4);
-                padding: 20px;
-                font-size: 20px;
-                color: #fff
             }
             
             .box2 {
@@ -32,9 +34,7 @@
                 left: 200px;
                 z-index: 2;
                 background: rgb(237, 7, 7);
-                padding: 20px;
-                font-size: 20px;
-                color: #fff
+                
             }
             
             .box3 {
@@ -45,9 +45,6 @@
                 left: 100px;
                 z-index: 3;
                 background: #0f0e0e;
-                padding: 20px;
-                font-size: 20px;
-                color: #fff;
             }
             
             .box4 {
@@ -58,9 +55,6 @@
                 left: 150px;
                 z-index: 4;
                 background: #5050ee;
-                padding: 20px;
-                font-size: 20px;
-                color: #fff
             }
             
         </style>
@@ -69,10 +63,12 @@
     <body>
         <h1>z-index with positioned boxes</h1>
 
-        <div class="box1">Green Box with z-index of 1</div>
-        <div class="box2">Red Box with z-index of 2</div>
-        <div class="box3">Black Box with z-index of 3</div>
-        <div class="box4">Gray Box with z-index of 4</div>
+        <div class="container">
+            <div class="box1">Green Box with z-index of 1</div>
+            <div class="box2">Red Box with z-index of 2</div>
+            <div class="box3">Black Box with z-index of 3</div>
+            <div class="box4">Gray Box with z-index of 4</div>
+        </div>
 
         <p>
             <em>note: </em>
