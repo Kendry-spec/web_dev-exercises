@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Center Image</title>
+
+    <style>
+        body {
+            background-color: rgb(51, 34, 3);
+            color: #ffff;
+            font-family: Arial, Tahoma, san-serif;
+            font-size: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: underline;
+            font-weight: normal;
+        }
+
+        .img-align {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        p {
+            margin-left: 30px;
+        }
+    </style>
 </head>
 <body>
     <h2>Center an image</h2>
     <p>To center an image, set the left and right margins to <span>auto</span>.</p>
     <p>And also turn an image into a <span>block-level</span> element</p>
 
-    <img src="paris.jpg" alt="An Image of Paris tower.">
+    <img src="paris.jpg" class="img-align" alt="An Image of Tower in Paris.">
 </body>
 </html>
