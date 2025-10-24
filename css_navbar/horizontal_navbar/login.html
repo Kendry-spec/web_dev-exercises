@@ -3,14 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EverWell Login Form</title>
+    <title>login page</title>
+    <style>
+        body {
+            background-color: #f1f1ff;
+            font-size: 24px;
+        }
 
-    <link rel="stylesheet" href="flex_navbar.css">
+        p {
+            margin: 15px;
+            padding: 6px;
+            text-decoration: underline;
+        }
+        
+        .dropdown-btn {
+            display: inline-block;
+            color: #ffffff;
+            background-color: #4CAF50;
+            padding: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            text-align: center;
+            margin-left: 16px;
+            border: none;
+            min-width: 100px;
+            border-radius: 8px;
+            box-shadow: 0px 6px 16px 2px rgba(0,0,0,0.7);
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+        
+        /* Style dropdown menu content */
+        .dropdown-content {
+            position: absolute;
+            display: none;
+            min-width: 160px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border-radius: 0px 0px 9px 9px;
+            margin: 0px 2px 0px 16px;
+            padding: 4px;
+            box-shadow: 0px 8px 14px 4px rgba(0,0,0,0.54),
+        }
+
+        /* Style list inside dropdown menu content */
+        .dropdown-content a {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            padding: 8px 12px;
+        }
+
+        /* Display dropdown menu content on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* display blue background when mouse hover over button */
+        .dropdown:hover .dropdown-btn {
+            background-color: #4cbe74;
+        }
+
+        /* display brownish background when mouse hover over a link */
+        .dropdown-content a:hover {
+            background-color: #4cbe74;
+        }
+    </style>
 </head>
 <body>
-    <h1>EverWell Clinic Login Form</h1>
-    <form>
-        
-    </form>
-    <p>The Page is on its Way!</p>
+    <p class="parag">Move Mouse over the button below to choose your account.</p>
+
+    <div class="dropdown">
+        <button class="dropdown-btn">User Account Type</button>
+        <div class="dropdown-content">
+            <a href="#">Admin</a>            
+            <a href="#">Doctor</a>
+            <a href="#">Patient</a>
+        </div>
+    </div>
 </body>
+</html>
