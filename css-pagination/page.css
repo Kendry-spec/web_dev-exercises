@@ -19,14 +19,13 @@ h1 {
     display: flex;      /* Arrange the page numbers horizontally */
     justify-content: center;    /* Center align numbers horizontally */
     list-style: none;
-    padding: 0;
 }
 
 .pagination li a {
     display: block;
     color: #000;
     background-color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border: 1px solid #144d7c;
     border-radius: 8px;
     padding: 10px 14px;
