@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-bg-color: #f7d9a5;
+    --primary-color: #000; 
+}
+
 body {
-    background-color: #f7d9a5;
+    background-color: var(--primary-bg-color);
 }
 
 h1 {
@@ -23,7 +28,7 @@ h1 {
 
 .pagination li a {
     display: block;
-    color: #000;
+    color: var(--primary-color);
     background-color: #fff;
     font-size: 1.2rem;
     border: 1px solid #144d7c;
