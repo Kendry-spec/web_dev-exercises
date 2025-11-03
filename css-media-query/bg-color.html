@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#1: Background Color Challenge</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 1.2rem;
+            text-align: center;
+
+            /* Default background color for mobile or smaller screen */
+            background-color: #ffe30c;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+        
+        .info-box {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 14px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+        }
+
+        /* Mobile: less than 576px is handled by default style */
+
+        /* Tablet: 576px - 768px */
+        @media screen and (min-width: 576px) and (max-width: 768px) {
+            body {
+                background-color: #0a4c04;
+            }
+        }
+
+        /* Desktop: 768px or above */
+        @media screen and (min-width: 768px) {
+            body {
+                background-color: #0a0ae6;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="info-box">
+            <h1>Background Color Challenge</h1>
+            <p>Resize the browser window to see the background color change!</p>
+
+            <h2>Breakpoints:</h2>
+            <p>Mobile: &lt; 576px = Yellow</p>
+            <p>Tablet: 576px - 768px = Green</p>
+            <p>Desktop:&gt; 768px = Blue</p>
+        </div>
+    </main>
+</body>
+</html>
